@@ -9,7 +9,7 @@ L'application possède quelques fonctionnalités comme l'affichage d'un catalogu
 
 Bootstrap permet l'organisation des véhicules en colonnes.
 
-Un changement généré par l'application "cardealershiptest" sera automatiquement affiché sur [cardealershiptest](https://github.com/ghr00/cardealershiptest/), ainsi, le catalogue des véhicules est automatiquement mis à jour sans à voir à recharger la page.
+Un changement généré par l'application [cardealershiptest](https://github.com/ghr00/cardealershiptest/) sera automatiquement affiché sur vehicletestweb, ainsi, le catalogue des véhicules est automatiquement mis à jour sans à voir à recharger la page.
 
 # Ce qui est prévu
 
