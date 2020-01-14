@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Platforme web d'un prototype de gestion de concesionnaire</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/style1.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+	<div class="container">
+    	<div class="row">
+			<div id="top_page">
+				<p>Gestion de profil</p>	
+			</div>	    
+		</div>
+
+		<div class="row">
+			
+				<div class="col-xs-offset-3">
+				<div id="main_menu">
+					<p id="mainText">Bievenue à la platforme prototype d'un concessionnaire de véhicule.</p>
+				    <button id="inscriptionButton" onclick="setInscriptionUIState(1)">Inscription</button>
+				    <button id="connexionButton" onclick="setConnexionUIState(1)">Connexion</button>
+				    <button id="catalogueButton" onclick="showCatalogue()">Voir le catalogue des voitures</button>
+			    </div>
+				</div>
+			
+		</div>
+
+		<form method="post" action="traitement.php">
+		   <p>
+		       <label for="pseudo">Votre pseudo :</label>
+		       <input type="text" name="profilUsername" id="profil_pseudo" />
+		       
+		       <br />
+		       <label for="pass">Votre ancien mot de passe :</label>
+		       <input type="password" name="profilPassword1" id="profil_password1" />
+
+		       <br />
+		       <label for="pass">Votre nouveau mot de passe :</label>
+		       <input type="password" name="profilPassword2" id="profil_password2" />
+
+		       <br />
+		       <label for="pass">Votre email :</label>
+		       <input type="password" name="emailPassword" id="email_password" />
+
+		       
+		       
+		   </p>
+		</form>
+
+		<div id="profil_row" class="row">
+
+		</div>
+	</div>
+
+	<script src="bootstrap/js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>  
+
+	<script>
+	var socket = io.connect('http://localhost:8080');
+	var row;
+
+
+	</script>
+
+</body>
+</html>
