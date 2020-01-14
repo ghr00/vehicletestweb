@@ -1,7 +1,7 @@
 # Vehicletestweb par Amine Yahemdi
 ![Imgur](https://i.imgur.com/DXFCS8c.png)
 
-Cette application web actuellement incomplète devait servir comme plateforme d'affichage des catalogues de véhicule d'occasion en vente généré par le projet "cardealershiptest". Les deux projets sont associés à la même base de donnée.
+Cette application web actuellement incomplète devait servir comme plateforme d'affichage des catalogues de véhicule d'occasion en vente généré par le projet [cardealershiptest](https://github.com/ghr00/cardealershiptest/). Les deux projets sont associés à la même base de donnée.
 
 Le frontend a été codé en native HTML/JS et le backend utilise node.js .
 # Description
@@ -9,7 +9,7 @@ L'application possède quelques fonctionnalités comme l'affichage d'un catalogu
 
 Bootstrap permet l'organisation des véhicules en colonnes.
 
-Un changement généré par l'application "cardealershiptest" sera automatiquement affiché sur "vehicletestweb", ainsi, le catalogue des véhicules est automatiquement mis à jour sans à voir à recharger la page.
+Un changement généré par l'application "cardealershiptest" sera automatiquement affiché sur [cardealershiptest](https://github.com/ghr00/cardealershiptest/), ainsi, le catalogue des véhicules est automatiquement mis à jour sans à voir à recharger la page.
 
 # Ce qui est prévu
 
